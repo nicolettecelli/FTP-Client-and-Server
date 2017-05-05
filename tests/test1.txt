@@ -1,0 +1,10 @@
+#this is a comment
+#first line that is not a comment is to get the ftp going
+ftp -h cnt4713 -u john -p superjohn -A
+ls
+put file.txt
+get file.txt file2.txt
+ls
+del file.txt
+quit
+#when the test is complete, the ftp must exit. 
